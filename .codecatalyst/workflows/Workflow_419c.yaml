@@ -1,4 +1,4 @@
-Name: Workflow_419c
+Name: Workflow_GH
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
@@ -9,7 +9,7 @@ Triggers:
 
 # Required - Define action configurations.
 Actions:
-  Build_cf:
+  Build:
     # Identifies the action. Do not modify this value.
     Identifier: aws/build-beta@v1.0.0
 
